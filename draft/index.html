@@ -4,29 +4,46 @@
 		<title>JDValley</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" >
+		<!--include google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	</head>
 	<body>
 		<!--Create the first 4 big boxes and position to where i want them -- Nav, Logo content and Footer -->
 		<div class="nav">
 			<!--Nav will contain just a link to github and a link to the contact page -->
-			<div class="row">
-				<ul>
-					<div class="col-sm">
-						<li><a href="https://github.com/JesseStudin/website">GITHUB</a></li>
-					</div>
-					<div class="col-sm marg-l-3">
-						<li><a href="_blank">CONTACT</a></li>
-					</div>
+			<ul>
+				<div class="col-tin marg-r-3">
+					<li><a href="https://github.com/JesseStudin/website">GITHUB</a></li>
+				</div>
+				<div class="col-tin marg-l-3 marg-r-3">
+					<li><a href="_blank">CONTACT</a></li>
 				</div>
 		</div>
 		<div class="cont-logo">
 			<!-- this will contain a logo made by Pia  -->
+			<figure>
+				<img id="comp-logo" src="images/logo.png" alt="JDValley Logo copyright Pia Cosalan">
+			</figure>
 		</div>
+		<hr class="style-five">
 		<div class="cont-content">
 			<!-- this will be the main content, contain a picture col and a about me col -->
+			<div class="col-md marg-l-2">
+				<div class="col-sm floa-l "><img class="content-image" src="images/portfolio.jpeg"></div>
+				<div class="col-sm floa-r "><img class="content-image" src="images/portfolio.jpeg"></div>
+				<div class="col-sm floa-l marg-t-2"><img class="content-image" src="images/portfolio.jpeg"></div>
+				<div class="col-sm floa-r marg-t-2"><img class="content-image" src="images/portfolio.jpeg"></div>
+			</div>
+			<div class="col-md floa-r marg-r-2">
+				<div class="about-me-text">
+					<p>My Name is Jesse Dean, currently a Computer Science Student at the University of Technology known as QUT. My goal is to become a full stack Web Developer while also maintaining a career in freelance web development. This website will show off my front end skills while also further adding new features utilising a node.js backend. Everything (excpet logos) will be made available to people, as a theme for startpoints or just for education, as I hope to help people who struggle with CSS layouts as much as I did.
+				</div>
+			</div>
 		</div>
+		<hr class="style-five">
 	</body>
 	<footer>
 		<!-- This will contain the footer information, my freelance name copyright i made the page -->
+		<p>JDVALLEY&copy;</p>
 	</footer>
 </html>

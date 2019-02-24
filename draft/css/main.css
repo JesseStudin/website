@@ -2,8 +2,10 @@
 ** border for content blue and footer green */
 
 body {
-  width: 960px;
+  width: 610px;
   margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+
 }
 
 /*code for the a tags up the top */
@@ -15,12 +17,91 @@ a:hover {
   color: black;
 }
 
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+.col-tin {
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.col-sm {
+  width: 40%;
+  height: 80px;
+  display: inline-block;
+  text-align:center;
+  border: .5px solid black;
+  border-radius: 15px;
+
+}
+
+.col-md {
+  width: 40%;
+  height: 200px;
+  display: inline-block;
+}
+
+.about-me-text {
+  height: 100%;
+  width: 100%;
+  font-size: 11px;
+}
+
+.content-image {
+  height: 70px;
+  width: 70px;
+  border: 0;
+}
+
+.floa-r {
+  float:right;
+}
+
+.floa-l {
+  float: left;
+}
+
+.marg-l-2 {
+  margin-left: 20px;
+}
+
+.marg-l-3 {
+  margin-left: 30px;
+}
+
+.marg-r-3 {
+  margin-right: 30px;
+}
+
+.marg-r-2 {
+  margin-right: 20px;
+}
+
+.marg-t-2 {
+  margin-top: 20px;
+}
+
+.row-logo {
+  border: 4px solid black;
+  height: 100px;
+}
+
+
+
 
 /*css for the main nav div (container nav) */
 .nav {
-  border: 2px solid black;
-  width: 380px;
+  width: 480px;
   margin: 20px auto 0 auto;
+  text-align:center;
+
 }
 
 .nav ul li {
@@ -29,23 +110,19 @@ a:hover {
 }
 
 .row {
-  border: 2px solid blue;
-  width: 300px;
-}
-
-.col-sm {
-  width: 80px;
+  width: 500px;
   display: inline-block;
-  border: 2px solid orange;
 }
 
-.marg-l-3 {
-  margin-left: 30px;
+#comp-logo {
+  height: 180px;
+  width: 200px;
 }
+
+
 
 /*Contiainer for the logo */
 .cont-logo {
-  border: 2px solid yellow;
   width: 600px;
   height: 200px;
   text-align: center;
@@ -54,17 +131,14 @@ a:hover {
 
 /*container for the content */
 .cont-content {
-  border: 2px solid blue;
   width: 600px;
-  height: 200px;
-  margin: 10px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 footer {
-  border: 2px solid green;
   position: absolute;
   bottom: 0;
-  width: 960px;
-  height: 10px;
-  margin-left: auto;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 30px;
 }
