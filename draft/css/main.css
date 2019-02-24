@@ -1,0 +1,70 @@
+/* development purposes, the border for nav will be black, border for logo will be yellow
+** border for content blue and footer green */
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*code for the a tags up the top */
+a {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+
+/*css for the main nav div (container nav) */
+.nav {
+  border: 2px solid black;
+  width: 380px;
+  margin: 20px auto 0 auto;
+}
+
+.nav ul li {
+  display: inline;
+  font-size: 10px;
+}
+
+.row {
+  border: 2px solid blue;
+  width: 300px;
+}
+
+.col-sm {
+  width: 80px;
+  display: inline-block;
+  border: 2px solid orange;
+}
+
+.marg-l-3 {
+  margin-left: 30px;
+}
+
+/*Contiainer for the logo */
+.cont-logo {
+  border: 2px solid yellow;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  margin: 50px auto 0 auto;
+}
+
+/*container for the content */
+.cont-content {
+  border: 2px solid blue;
+  width: 600px;
+  height: 200px;
+  margin: 10px auto 0 auto;
+}
+
+footer {
+  border: 2px solid green;
+  position: absolute;
+  bottom: 0;
+  width: 960px;
+  height: 10px;
+  margin-left: auto;
+}
