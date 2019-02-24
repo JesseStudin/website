@@ -4,18 +4,26 @@
 body {
   width: 610px;
   margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+  background-color: #1A1A1D;
+  color: white;
 
 }
 
 /*code for the a tags up the top */
 a {
-  color: grey;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: grey;
+  text-decoration: none;
 }
+
+
+
+
 
 hr.style-five {
     border: 0;
@@ -37,8 +45,6 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   height: 80px;
   display: inline-block;
   text-align:center;
-  border: .5px solid black;
-  border-radius: 15px;
 
 }
 
@@ -48,17 +54,36 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   display: inline-block;
 }
 
+
+/*Font Stylings */
+.main-text {
+  font-size: 10px;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.stand-out {
+  color: #C5C6C7;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
 .about-me-text {
   height: 100%;
   width: 100%;
   font-size: 11px;
+  color: white;
+  text-align: center;
 }
 
 .content-image {
   height: 70px;
   width: 70px;
-  border: 0;
+  border-radius: 10px;
 }
+
+/* END FONT STYLINGS */
 
 .floa-r {
   float:right;
@@ -86,6 +111,10 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 .marg-t-2 {
   margin-top: 20px;
+}
+
+.pad-l-08 {
+  padding-left: 8px;
 }
 
 .row-logo {
