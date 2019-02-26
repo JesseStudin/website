@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media  screen and (max-width: 1920px) {
+    /* insert styles here */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      background: url(../images/valley-2.jpeg);
+      width: 100%;
+      height: 1080px;
+      border: 2px solid black;
+
+    }
+
+    .nav {
+      height: 120px;
+      width: 20%;
+      background: url(../images/logo_transparent_white.png);
+      background-size: 100px 100px;
+      background-repeat: no-repeat;
+      left: 0;
+    }
+
+
+
+    .col-md {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: white;
+      font-size: 30px;
+      height: 120px;
+      align-self: center;
+      font-weight: bold;
+    }
+
+    .col-md-w {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .col-md-quote {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: white;
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 700px;
+      font-weight:bolder;
+    }
+
+    .col-md-author {
+      font-size: 20px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 800;
+      color: white;
+      height: 60px;
+      width: 150px;
+    }
+
+    .marg-t-27 {
+      margin-top: 270px;
+    }
+    .font-underline {
+      text-decoration: underline;
+      text-decoration-style:double;
+    }
+
+    .marg-l-8 {
+      margin-left: 140px;
+    }
+
+    .marg-t {
+      margin-top: 5px;
+    }
+
+    .marg-t-2 {
+      margin-top: 20px;
+    }
+
+    .marg-t-4 {
+      margin-top: 80px;
+    }
+
+    .marg-l-24 {
+      margin-left: 300px;
+    }
+
+    .marg-l-40 {
+      margin-left: 750px;
+    }
+
+    .marg-t-20 {
+      margin-top: 250px;
+    }
+
+    .marg-t-19 {
+
+    }
+
+    .logo-git {
+      height: 100px;
+      width: 100px;
+      align-self: flex-start;
+      align-self: center;
+      margin-left: auto;
+      margin-right: 50px;
+      background: url(../images/Octocat.png);
+      background-repeat: no-repeat;
+      background-size:100px 100px;
+    }
+
+    .logo-contact {
+      height: 100px;
+      width: 100px;
+      background-color: blue;
+      align-self: center;
+      margin-right: auto;
+      background: url(../images/card.png);
+      background-repeat: no-repeat;
+      background-size: 100px 100px;
+    }
+
+    .first-rectangle {
+      height: 50%;
+      display: flex;
+      flex-wrap:wrap;
+      width: 50%;
+      background: rgba(157, 4, 211, 0.3);
+    }
+
+    .second-rectangle {
+      height: 50%;
+      width: 50%;
+      background: rgba(252, 0, 18, 0.3);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .third-rectangle {
+      height: 50%;
+      width: 50%;
+      background: rgba(240, 253, 42, 0.3);
+    }
+
+    .fourth-rectangle {
+      height: 50%;
+      width: 50%;
+      background: rgba(32, 232, 0, .2);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .fifth-about-me {
+      height: 350px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+    }
+
+    .row {
+      width: 80%;
+      height: 50px;
+      background-color: blue;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .row-2 {
+      width: 100%;
+      height: 300px;
+      background-color: orange;
+      display: flex;
+      flex: wrap;
+    }
+
+    .first-cont {
+      width: 50%;
+      height: 100%;
+      background-color: green;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sec-cont {
+      width: 50%;
+      height: 100%;
+      background-color: yellow;
+    }
+
+    .image-box-1 {
+      height: 100px;
+      width: 100px;
+      background-color: blue;
+      align-self: center;
+    }
+
+
+}
